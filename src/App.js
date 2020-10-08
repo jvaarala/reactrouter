@@ -1,47 +1,63 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 import {
-    BrowserRouter as Router,
-    Switch, Route, Link
+  BrowserRouter as Router,
+  Switch, Route, Link
 } from 'react-router-dom'
 
 import Add from './components/Add'
 import Home from './components/Home'
 import List from './components/List'
+import Nav from 'react-bootstrap/Nav'
 
 const App = () => {
+  const [notes, setNotes] = useState([])
 
-    const padding = {
-        padding: 5
-    }
+  function getNotesFromDb () {
+    axios
+      .get('http://localhost:3001/notes')
+      .then(response => {
+        console.log(response.status, response.statusText)
+        if (response.status === 200) {
+          console.log(response.status, response.text, response.data)
+          setNotes(response.data)
+        }
+      }).catch(error => console.log('error', error))
+  }
 
-    return (
-        <div className="container">
-            <Router>
-                <div>
-                    <Link style={padding} to="/">home</Link>
-                    <Link style={padding} to="/add">add</Link>
-                    <Link style={padding} to="/list">list</Link>
-                </div>
+  useEffect(() => {
+    getNotesFromDb()
+  }, [])
 
-                <Switch>
-                    <Route path="/add">
-                        <Add />
-                    </Route>
-                    <Route path="/list">
-                        <List />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
+  return (
+    <div className='container'>
+      <Router>
+        <Nav fill variant='tabs'>
+          <Nav.Item href='/'>
+            <Nav.Link as={Link} to='/'>Etusivu</Nav.Link>
+          </Nav.Item>
+          <Nav.Item href='/list'>
+            <Nav.Link as={Link} to='/list'>Muistiinpanot</Nav.Link>
+          </Nav.Item>
+          <Nav.Item href='/add'>
+            <Nav.Link as={Link} to='/add'>Lisää</Nav.Link>
+          </Nav.Item>
+        </Nav>
 
-                <div>
-                    <i>Esimerkkivalikko </i>
-                    <i>perustuu HY:n fullstackopen-kurssimateriaaliin</i>
-                </div>
-            </Router>
-        </div>
-    )
+        <Switch>
+          <Route path='/add'>
+            <Add />
+          </Route>
+          <Route path='/list'>
+            <List notes={notes} getNotesFromDb={getNotesFromDb} />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  )
 }
 
 export default App

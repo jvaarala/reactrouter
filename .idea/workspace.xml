@@ -6,13 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e27c6b4-796c-49a4-90e5-a859aa281cf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +64,16 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -118,7 +127,7 @@
       <workItem from="1598602014775" duration="2262000" />
       <workItem from="1599116090165" duration="4892000" />
       <workItem from="1599647855298" duration="1582000" />
-      <workItem from="1602164920475" duration="213000" />
+      <workItem from="1602164920475" duration="15563000" />
     </task>
     <task id="LOCAL−00001" summary="a simple menu with React">
       <created>1599124007693</created>
@@ -126,7 +135,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1599124007693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a simple menu with React">
+      <created>1602165266017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602165266017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,10 +188,15 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="85" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1598564527111" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1599124006992">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="378" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602166560027">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="378" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602166560027" />
+    <state x="528" y="23" width="1487" height="1201" key="CommitChangelistDialog2" timestamp="1602165265850">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1599124006992" />
+    <state x="528" y="23" width="1487" height="1201" key="CommitChangelistDialog2/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165265850" />
     <state width="1259" height="408" key="GridCell.Tab.0.bottom" timestamp="1602165116517">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -192,9 +213,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1259" height="408" key="GridCell.Tab.0.right/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165116516" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1598565554130">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="284" y="23" key="SettingsEditor" timestamp="1602181328069">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1598565554130" />
+    <state x="284" y="23" key="SettingsEditor/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602181328069" />
+    <state x="240" y="471" key="Vcs.Push.Dialog.v2" timestamp="1602165268085">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="240" y="471" key="Vcs.Push.Dialog.v2/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165268085" />
   </component>
 </project>
