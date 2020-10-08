@@ -1,24 +1,18 @@
 import React from "react";
-import { Table } from 'react-bootstrap'
+import {Table} from 'react-bootstrap'
 
 const List = () => {
 
-    return(
+    return (
         <div className="container">
-            {/* A JSX comment */}
-
-            {/* <div>
-                <p>Valinta 2.</p>
-            </div>
-            */}
             <Table striped>
-            <tbody>
+                <tbody>
                 <tr>
                     <td>
                         <p>1. rivi</p>
                     </td>
                     <td>
-                        <p>kdfjhfdkjhsfdkjh</p>
+                        <p>Testi</p>
                     </td>
                 </tr>
                 <tr>
@@ -26,10 +20,10 @@ const List = () => {
                         <p>2. rivi</p>
                     </td>
                     <td>
-                        <p>jhgkjdkgjgdkjhdgk</p>
+                        <p>Testi</p>
                     </td>
                 </tr>
-            </tbody>
+                </tbody>
             </Table>
 
         </div>

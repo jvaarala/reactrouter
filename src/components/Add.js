@@ -1,13 +1,12 @@
 import React from 'react'
 
-
 const Add = () => {
 
-    return(
+    return (
         <div className="container">
-           <div>
-               <p>Valinta 1.</p>
-           </div>
+            <div>
+                <p>Valinta 1.</p>
+            </div>
         </div>
     )
 }

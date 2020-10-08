@@ -7,7 +7,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4e27c6b4-796c-49a4-90e5-a859aa281cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +54,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.15.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testi2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -83,7 +88,19 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,6 +117,8 @@
       <workItem from="1598564828010" duration="1780000" />
       <workItem from="1598602014775" duration="2262000" />
       <workItem from="1599116090165" duration="4892000" />
+      <workItem from="1599647855298" duration="1582000" />
+      <workItem from="1602164920475" duration="213000" />
     </task>
     <task id="LOCAL−00001" summary="a simple menu with React">
       <created>1599124007693</created>
@@ -111,7 +130,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -143,12 +162,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a simple menu with React" />
@@ -163,6 +176,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1599124006992" />
+    <state width="1259" height="408" key="GridCell.Tab.0.bottom" timestamp="1602165116517">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1259" height="408" key="GridCell.Tab.0.bottom/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165116517" />
+    <state width="1259" height="408" key="GridCell.Tab.0.center" timestamp="1602165116516">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1259" height="408" key="GridCell.Tab.0.center/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165116516" />
+    <state width="1259" height="408" key="GridCell.Tab.0.left" timestamp="1602165116515">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1259" height="408" key="GridCell.Tab.0.left/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165116515" />
+    <state width="1259" height="408" key="GridCell.Tab.0.right" timestamp="1602165116516">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1259" height="408" key="GridCell.Tab.0.right/612.1463.1440.877/0.23.2560.1417@0.23.2560.1417" timestamp="1602165116516" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1598565554130">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
