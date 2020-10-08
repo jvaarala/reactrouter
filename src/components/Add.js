@@ -55,7 +55,7 @@ const Add = () => {
         />
       </Form.Group>
 
-      <Button type='submit'>Submit form</Button>
+      <Button type='submit'>Tallenna muistiinpano</Button>
     </Form>
   )
 }
